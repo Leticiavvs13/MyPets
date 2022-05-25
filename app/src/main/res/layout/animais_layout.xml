@@ -7,10 +7,11 @@
     tools:context=".AnimaisActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/idBottomNavigation"
+        android:id="@+id/idBottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/menu_bottom_bar"
-        android:layout_gravity="bottom"/>
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_nav" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

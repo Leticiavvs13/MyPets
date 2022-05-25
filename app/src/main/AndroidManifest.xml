@@ -10,13 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPets">
         <activity
-            android:name=".AnimaisActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CafeBadilicoActivity"
+            android:name=".GaleriaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".AnimaisActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".CatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafeBadilicoActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".MenuActivity"
             android:exported="true" />
